@@ -1,0 +1,27 @@
+ .footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+  color: #333;
+  margin-top: 40px;
+}
+
+.footer-icons {
+  margin-bottom: 10px;
+}
+
+.footer-icons a {
+  color: #0077cc;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.footer-icons a:hover {
+  color: #990047;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-top: 10px;
+}

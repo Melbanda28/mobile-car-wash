@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color:blue;
+  font-weight: 500;
+}
+
+
+
+
+.logo {
+  display: inline-block;
+  line-height: 1.2;
+}
+
+.company-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2b6cb0;
+}
+
+.slogan {
+  font-size:1rem;
+  font-weight: 100;
+  color: black;
+  margin-left: 50px;
+}

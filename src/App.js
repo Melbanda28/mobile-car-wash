@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import HomePage from './pages/HomePage';
+import ServicesPage from './pages/ServicesPage';
+import OurStoryPage from './pages/OurStoryPage';
 
-function App() {
+function AppWrapper() {
+  const [scrollTo, setScrollTo] = useState(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar setScrollTo={setScrollTo} />
+      <Routes>
+        <Route path="/" element={<HomePage scrollTo={scrollTo} />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/our-story" element={<OurStoryPage />} />
+      </Routes>
+    </Router>
   );
 }
 
-export default App;
+export default AppWrapper;
+
+

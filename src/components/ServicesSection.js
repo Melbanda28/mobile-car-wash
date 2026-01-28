@@ -21,8 +21,17 @@ function ServicesSection() {
         {/* House Cleaning */}
         <div className="service-box">
           <h3>🏠 Refresh My Home</h3>
-          <p>Full house clean — kitchen, bedrooms, floors and more.</p>
+          <p>Full house cleaning of kitchen, bedrooms, floors and more.</p>
           <Link to="/services#refresh-my-home" className="learn-more-button">
+            Learn More
+          </Link>
+        </div>
+
+        {/*BnB Turnover */}
+        <div className="service-box">
+          <h3>🏠 BnB Turnover</h3>
+          <p>Full guest-ready cleaning for AirBnB and guesthoues.</p>
+          <Link to="/services#bnb-turnover" className="learn-more-button">
             Learn More
           </Link>
         </div>

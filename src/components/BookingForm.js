@@ -60,8 +60,10 @@ Phone: ${phone}`;
           <label>Service</label>
           <select value={service} onChange={(e) => setService(e.target.value)}>
             <option value="">Pick a service</option>
-            <option value="Refresh My Ride">Refresh My Ride</option>
-            <option value="Refresh My House">Refresh My House</option>
+            <option value="Refresh My Ride">Refresh My Ride- Small Car</option>
+             <option value="Refresh My Ride">Refresh My Ride - Suv</option>
+            <option value="Refresh My House">Refresh My House- Mini Home Clean</option>
+            <option value="Refresh My House">Refresh My House- Max Home Clean</option>
             <option value="Double Refresh">Double Refresh</option>
           </select>
         </div>

@@ -12,17 +12,16 @@
 }
 
 .service-boxes {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+  display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 20px;
 }
 
 .service-box {
   background: #ffffff;
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  padding: 1.5rem;
+  padding: 20px;
   flex: 1 1 250px;
   max-width: 300px;
 }

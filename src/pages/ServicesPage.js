@@ -16,6 +16,7 @@ function ServicesPage() {
         {/* 🚗 Refresh My Ride */}
         <div className="service-box">
           <h2>🚗 Refresh My Ride</h2>
+          <h3>Standard Home Cleaning</h3>
           <ul>
             <li>Wash, rinse, and shine outside</li>
             <li>Polish tires</li>

@@ -36,15 +36,6 @@ function ServicesSection() {
           </Link>
         </div>
 
-        {/* Combo */}
-        <div className="service-box">
-          <h3>💎 Double Refresh</h3>
-          <p>Combo package: full car wash + complete home clean.</p>
-          <Link to="/services#total-refresh" className="learn-more-button">
-            Learn More
-          </Link>
-        </div>
-
       </div>
     </section>
   );

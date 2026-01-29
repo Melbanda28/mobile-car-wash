@@ -71,5 +71,14 @@
 }
 
 
-
+@media(max-width:600px) {
+  .service-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .service-box{
+    width: 100%;
+  }
+}
 

@@ -118,40 +118,6 @@ function ServicesPage() {
             <MdEmail /> Book via Email
           </a>
 </div>
-
-
-
-
-        {/* 💎 Double Refresh */}
-        <div className="service-box">
-          <h2>💎 Double Refresh</h2>
-          <ul>
-            <li>Refresh My Ride + Home Clean Combo</li>
-            <li>Discounted package deal depending on the package you choose</li>
-            <li>Perfect for weekends & special events</li>
-          </ul>
-          <p><strong>Pricing:</strong> Depends on the combo chosen</p>
-          R100 off any combo!!
-
-          <a
-            className="whatsapp-button"
-            href={createWhatsAppLink(
-              `Hi! I'd like to book the 'Double Refresh' combo service.\n\nIncludes:\n- Car Wash + Home Clean Combo\n- Perfect for weekends & events\n\nPricing: R600`
-            )}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaWhatsapp /> Book via WhatsApp
-          </a>
-
-          <a
-            className="email-button"
-            href="mailto:Reasonableservices777@gmail.com?subject=Booking%20Request:%20Double%20Refresh&body=Hi!%20I%20would%20like%20to%20book%20the%20'Double%20Refresh'%20combo%20service.%0AIncludes:%0A- Car Wash + Home Clean Combo%0A- Perfect for weekends and events%0APricing: R600"
-          >
-            <MdEmail /> Book via Email
-          </a>
-        </div>
-
       </div>
     </div>
   );

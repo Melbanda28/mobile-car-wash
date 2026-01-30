@@ -79,7 +79,7 @@
 }
 
 /* Phone: 1 per row (stacked) */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .service-boxes {
     flex-direction: column;
   }

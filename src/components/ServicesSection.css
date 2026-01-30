@@ -3,6 +3,7 @@
   background-color: #f2f7fc;
   text-align: center;
   margin-top: -70px;
+  overflow-x: hidden;
 }
 
 .section-title {
@@ -13,7 +14,7 @@
 
 .service-boxes {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
   width: 100%;
 }
@@ -25,6 +26,7 @@
   padding: 20px;
   width: 100%;
   max-width: 100%;
+  box-sizing: border-box;
 }
 
 .service-box h3 {

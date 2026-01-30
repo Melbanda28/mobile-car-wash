@@ -103,7 +103,7 @@ function ServicesPage() {
   <a
             className="whatsapp-button"
             href={createWhatsAppLink(
-              `Hi! I'd like to book the 'Double Refresh' combo service.\n\nIncludes:\n- Car Wash + Home Clean Combo\n- Perfect for weekends & events\n\nPricing: R600`
+              `Hi! I'd like to book the 'Guest House' full service.\n\nIncludes:\n- Car Wash + Home Clean Combo\n- Perfect for weekends & events\n\nPricing: R1040`
             )}
             target="_blank"
             rel="noopener noreferrer"

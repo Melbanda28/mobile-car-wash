@@ -12,11 +12,13 @@
 }
 
 .story-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
+
 
 .story-box {
   flex: 1 1 300px;

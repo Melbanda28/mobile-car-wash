@@ -27,4 +27,19 @@
   background-color: #0056b3;
 }
 
+.hero p{
+  width: 100%;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+@media(max-width:600px){
+  .hero{
+    padding-left: 16px;
+    padding-right: 16px;
+
+  }
+}
+
 
